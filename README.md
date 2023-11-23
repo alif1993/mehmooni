@@ -26,7 +26,7 @@
 
     <script>
         // Set the date we're counting down to (replace with your specific date and time)
-        const countDownDate = new Date("Nov 22, 2023 17:00:00").getTime();
+        const countDownDate = new Date("Nov 22, 2023 23:00:00").getTime();
 
         // Update the countdown every 1 second
         const x = setInterval(function() {
