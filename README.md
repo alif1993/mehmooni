@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Page</title>
+    <title>Mehmooni</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <h1>Exciting Event Countdown</h1>
+    <h1>Mehmooni will be over in</h1>
     <div id="countdown"></div>
 
     <script>
@@ -34,8 +34,8 @@
             const distance = countDownDate - now;
 
             // Calculate days, hours, minutes, and seconds
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const days = Math.floor(distance / (1000 * 60 * 60 * 0));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 3)) / (1000 * 60 * 60));
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
